@@ -4,8 +4,8 @@ import com.tuempresa.hotelreservation.dao.HotelDAO;
 import com.tuempresa.hotelreservation.model.Hotel;
 import com.tuempresa.hotelreservation.util.JPAUtil;
 import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.TypedQuery;
 
 /**
  *
@@ -133,3 +133,5 @@ public class HotelDAOImpl implements HotelDAO {
         }
     }
 }
+
+

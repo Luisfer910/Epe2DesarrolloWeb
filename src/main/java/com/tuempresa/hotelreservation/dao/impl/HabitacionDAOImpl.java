@@ -6,8 +6,8 @@ import com.tuempresa.hotelreservation.util.JPAUtil;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.TypedQuery;
 
 /**
  *
@@ -171,3 +171,5 @@ public class HabitacionDAOImpl implements HabitacionDAO {
         }
     }
 }
+
+

@@ -3,7 +3,7 @@ package com.tuempresa.hotelreservation.model;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.*;
+import jakarta.persistence.*;
 /**
  *
  * @author LFMG9
@@ -110,3 +110,5 @@ public class Usuario implements Serializable {
         reserva.setUsuario(this);
     }
 }
+
+

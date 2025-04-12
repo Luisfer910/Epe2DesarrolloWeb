@@ -3,7 +3,7 @@ package com.tuempresa.hotelreservation.model;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 /**
  *
@@ -134,3 +134,5 @@ public class Hotel implements Serializable {
         habitacion.setHotel(this);
     }
 }
+
+

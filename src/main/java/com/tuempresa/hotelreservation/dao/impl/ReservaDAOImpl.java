@@ -6,9 +6,9 @@ import com.tuempresa.hotelreservation.model.Reserva.EstadoReserva;
 import com.tuempresa.hotelreservation.util.JPAUtil;
 import java.util.Date;
 import java.util.List;
-import javax.persistence.EntityManager;
-import javax.persistence.NoResultException;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.NoResultException;
+import jakarta.persistence.TypedQuery;
 
 /**
  *
@@ -178,3 +178,5 @@ public class ReservaDAOImpl implements ReservaDAO {
         }
     }
 }
+
+

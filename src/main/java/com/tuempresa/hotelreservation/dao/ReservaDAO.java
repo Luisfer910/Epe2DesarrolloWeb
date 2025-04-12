@@ -50,3 +50,5 @@ public interface ReservaDAO extends GenericDAO<Reserva> {
      */
     boolean verificarDisponibilidad(Long habitacionId, Date fechaIngreso, Date fechaSalida);
 }
+
+

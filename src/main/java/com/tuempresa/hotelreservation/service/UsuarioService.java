@@ -17,3 +17,5 @@ public interface UsuarioService {
     Usuario buscarPorCorreo(String correo);
     Usuario iniciarSesion(String correo, String contraseña);
 }
+
+

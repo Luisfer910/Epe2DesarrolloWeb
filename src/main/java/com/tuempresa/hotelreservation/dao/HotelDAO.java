@@ -31,3 +31,5 @@ public interface HotelDAO extends GenericDAO<Hotel> {
      */
     List<Hotel> buscarHotelesDisponiblesEnCiudad(String ciudad);
 }
+
+

@@ -50,3 +50,5 @@ public interface HabitacionDAO extends GenericDAO<Habitacion> {
      */
     List<Habitacion> buscarDisponiblesPorFechas(Long hotelId, Date fechaIngreso, Date fechaSalida);
 }
+
+

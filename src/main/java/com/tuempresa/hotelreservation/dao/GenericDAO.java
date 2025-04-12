@@ -41,3 +41,5 @@ public interface GenericDAO<T> {
      */
     List<T> listarTodos();
 }
+
+

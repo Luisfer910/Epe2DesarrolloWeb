@@ -26,3 +26,5 @@ public interface UsuarioDAO extends GenericDAO<Usuario> {
     Usuario validarCredenciales(String correo, String contraseña);
 }
 
+
+
