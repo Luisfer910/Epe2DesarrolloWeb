@@ -29,7 +29,5 @@ public class JPAUtil {
         if (factory != null && factory.isOpen()) {
             factory.close();
         }
-    }   
+    }
 }
-
-
